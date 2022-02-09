@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submitBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 35%;
+    border: solid 1px #000000;
+    padding: 5px;
+}
